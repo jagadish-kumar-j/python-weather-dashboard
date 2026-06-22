@@ -41,7 +41,7 @@ print = safe_print
 # ─────────────────────────────────────────────
 # GLOBAL CONFIGURATION
 # ─────────────────────────────────────────────
-DEFAULT_API_KEY = "b9be1ee04d58f507482b7ed670e69e1e"   # Replace this with your own key if needed
+DEFAULT_API_KEY = ""   # Replace this with your own key if needed
 API_KEY = os.environ.get("OPENWEATHER_API_KEY", DEFAULT_API_KEY)
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"  # API endpoint
 
